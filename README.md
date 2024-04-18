@@ -10,7 +10,7 @@ This project is a backend for Url Shortener Application using murmur hashing.
 
 ## Introduction
 This project serves as a backend for Url Shortener Application.
-It will create a shortened link for user inputed link adn daved in database.
+It will create a shortened link for user inputed link and saved in database.
 
 ## Features
 * Create shortened link with murmur hashing
@@ -23,9 +23,9 @@ It will create a shortened link for user inputed link adn daved in database.
 * MySQL
 
 ## API Endpoints
-* **PUT/url/shortener:** to create short link
+* **POST/url/shortener:** to create short link
 * **GET/{id}:** get original link
 
 
 ## To Do Next
-* Adding simple UI using Thymeleaf
+* Adding simple UI
